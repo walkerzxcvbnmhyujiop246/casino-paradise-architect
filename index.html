@@ -1,26 +1,688 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>casino-paradise-architect</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title will be dynamically set by JavaScript -->
+    <title>Luxury Casino Resorts Worldwide</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Experience world-class gaming, luxurious accommodations, and exquisite dining at our award-winning casino resorts. Indulge in the ultimate luxury gaming experience.">
+    <meta name="keywords" content="luxury casino, hotel resort, high stakes, VIP gaming, casino resort, exclusive club, fine dining, luxury accommodation, casino hotel, gaming floor">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yoursite.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yoursite.com/">
+    <meta property="og:title" content="Luxury Casino Resorts Worldwide">
+    <meta property="og:description" content="Experience world-class gaming, luxurious accommodations, and exquisite dining at our award-winning casino resorts.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1496307653780-42ee777d4833">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yoursite.com/">
+    <meta property="twitter:title" content="Luxury Casino Resorts Worldwide">
+    <meta property="twitter:description" content="Experience world-class gaming, luxurious accommodations, and exquisite dining at our award-winning casino resorts.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1496307653780-42ee777d4833">
+    
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-montserrat text-gray-800 bg-gray-100">
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" id="json-ld">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Luxury Casino Resorts Worldwide",
+            "description": "Experience world-class gaming, luxurious accommodations, and exquisite dining at our award-winning casino resorts.",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Luxury Casino Resorts",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://yoursite.com/logo.png"
+                }
+            },
+            "mainEntity": {
+                "@type": "ItemList",
+                "itemListElement": []
+            }
+        }
+    </script>
 
-    <meta property="og:title" content="casino-paradise-architect" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Header/Navigation -->
+    <header class="fixed w-full z-50 transition-all duration-300" id="navbar">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg">
+            <div class="flex items-center">
+                <a href="#" class="text-xl md:text-2xl font-bold text-white font-playfair">
+                    <span id="brand-name">Luxury Casino</span>
+                </a>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#casinos" class="text-white hover:text-gold transition-colors">Top Casinos</a>
+                <a href="#features" class="text-white hover:text-gold transition-colors">Features</a>
+                <a href="#gallery" class="text-white hover:text-gold transition-colors">Gallery</a>
+                <a href="#events" class="text-white hover:text-gold transition-colors">Events</a>
+                <a href="#signup" class="text-white hover:text-gold transition-colors">VIP Signup</a>
+                <a href="#faq" class="text-white hover:text-gold transition-colors">FAQ</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black bg-opacity-95 backdrop-filter backdrop-blur-lg">
+            <div class="container mx-auto px-4 py-6 flex flex-col space-y-4">
+                <a href="#casinos" class="text-white hover:text-gold transition-colors py-2">Top Casinos</a>
+                <a href="#features" class="text-white hover:text-gold transition-colors py-2">Features</a>
+                <a href="#gallery" class="text-white hover:text-gold transition-colors py-2">Gallery</a>
+                <a href="#events" class="text-white hover:text-gold transition-colors py-2">Events</a>
+                <a href="#signup" class="text-white hover:text-gold transition-colors py-2">VIP Signup</a>
+                <a href="#faq" class="text-white hover:text-gold transition-colors py-2">FAQ</a>
+            </div>
+        </div>
+    </header>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- Hero Section -->
+    <section id="hero" class="relative h-screen flex items-center justify-center">
+        <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
+        <div class="hero-video-container absolute inset-0 overflow-hidden">
+            <video id="hero-video" class="w-full h-full object-cover" muted autoplay loop></video>
+        </div>
+        <div class="container mx-auto px-4 z-20 text-center">
+            <h1 id="main-title" class="text-4xl md:text-6xl lg:text-7xl font-bold text-white font-playfair mb-6"></h1>
+            <p class="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">Where luxury meets fortune in an unforgettable gaming experience</p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#casinos" class="btn-primary">Explore Our Casinos</a>
+                <a href="#signup" class="btn-secondary">Join VIP Club</a>
+            </div>
+            
+            <div class="mt-12 bg-black bg-opacity-60 backdrop-filter backdrop-blur px-8 py-6 rounded-lg inline-block">
+                <p class="text-white text-lg mb-2">Next VIP Event Begins In:</p>
+                <div class="flex items-center justify-center space-x-4">
+                    <div class="flex flex-col items-center">
+                        <span id="days" class="text-3xl font-bold text-gold">00</span>
+                        <span class="text-sm text-white">Days</span>
+                    </div>
+                    <div class="text-2xl text-white">:</div>
+                    <div class="flex flex-col items-center">
+                        <span id="hours" class="text-3xl font-bold text-gold">00</span>
+                        <span class="text-sm text-white">Hours</span>
+                    </div>
+                    <div class="text-2xl text-white">:</div>
+                    <div class="flex flex-col items-center">
+                        <span id="minutes" class="text-3xl font-bold text-gold">00</span>
+                        <span class="text-sm text-white">Minutes</span>
+                    </div>
+                    <div class="text-2xl text-white">:</div>
+                    <div class="flex flex-col items-center">
+                        <span id="seconds" class="text-3xl font-bold text-gold">00</span>
+                        <span class="text-sm text-white">Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Top Casinos Section -->
+    <section id="casinos" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Top Casino Destinations</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Discover the world's most prestigious gaming establishments</p>
+            
+            <div id="casino-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                <!-- Cards will be generated by JavaScript -->
+            </div>
+            
+            <div class="text-center mt-12">
+                <button id="load-more-casinos" class="btn-primary flex items-center justify-center mx-auto">
+                    <span>Load More</span>
+                    <span id="load-spinner" class="hidden ml-2">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-light-black">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-white" data-aos="fade-up">Exceptional Experiences</h2>
+            <p class="section-subtitle text-gray-300" data-aos="fade-up" data-aos-delay="100">Indulge in our world-class amenities and services</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+                <div class="feature-card" data-aos="fade-right">
+                    <i class="fas fa-gem text-gold text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold text-white mb-2 font-playfair">VIP Lounges</h3>
+                    <p class="text-gray-300">Exclusive access to private gaming areas with personalized service and higher limits.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-right" data-aos-delay="100">
+                    <i class="fas fa-utensils text-gold text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold text-white mb-2 font-playfair">Fine Dining</h3>
+                    <p class="text-gray-300">Award-winning restaurants featuring celebrity chefs and exquisite international cuisines.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-left" data-aos-delay="200">
+                    <i class="fas fa-glass-cheers text-gold text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold text-white mb-2 font-playfair">Premium Bars</h3>
+                    <p class="text-gray-300">Handcrafted cocktails and rare spirits served in sophisticated lounge environments.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-left" data-aos-delay="300">
+                    <i class="fas fa-concierge-bell text-gold text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold text-white mb-2 font-playfair">Concierge Service</h3>
+                    <p class="text-gray-300">24/7 personalized assistance for all your needs during your luxurious stay.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Luxury Gallery</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Immerse yourself in the opulence of our world-class destinations</p>
+            
+            <div class="mt-12" data-aos="fade-in">
+                <div class="swiper gallery-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Gallery slides will be generated by JavaScript -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Lightbox -->
+        <div id="gallery-lightbox" class="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center hidden">
+            <div class="relative w-full h-full flex items-center justify-center">
+                <button id="lightbox-close" class="absolute top-6 right-6 text-white text-4xl z-10">
+                    <i class="fas fa-times"></i>
+                </button>
+                <img id="lightbox-image" src="" alt="Gallery image" class="max-h-[90vh] max-w-[90vw] object-contain">
+            </div>
+        </div>
+    </section>
+
+    <!-- Spotlight: Casino Cuisine -->
+    <section id="cuisine" class="py-20 bg-light-black">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-white" data-aos="fade-up">Casino Cuisine</h2>
+            <p class="section-subtitle text-gray-300" data-aos="fade-up" data-aos-delay="100">Exquisite dining experiences crafted by world-renowned chefs</p>
+            
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="relative overflow-hidden rounded-lg" data-aos="fade-right">
+                    <div id="cuisine-image" class="h-80 bg-cover bg-center"></div>
+                </div>
+                <div class="flex flex-col justify-center" data-aos="fade-left">
+                    <h3 class="text-2xl font-playfair font-bold text-gold mb-4">Culinary Excellence</h3>
+                    <p class="text-gray-300 mb-6">Indulge in a gastronomic journey at our award-winning restaurants featuring Michelin-starred chefs. From authentic Italian cuisine to innovative fusion dishes, every meal is a celebration of flavors and artistry.</p>
+                    <ul class="text-gray-300 mb-6 space-y-2">
+                        <li class="flex items-center"><i class="fas fa-check text-gold mr-2"></i> Seasonal chef's tasting menus</li>
+                        <li class="flex items-center"><i class="fas fa-check text-gold mr-2"></i> Exclusive wine pairings</li>
+                        <li class="flex items-center"><i class="fas fa-check text-gold mr-2"></i> Private dining experiences</li>
+                    </ul>
+                    <a href="#" class="btn-secondary self-start">View Menus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Upcoming Events</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Mark your calendar for these exclusive experiences</p>
+            
+            <div class="mt-12">
+                <div class="swiper events-swiper">
+                    <div class="swiper-wrapper" id="events-container">
+                        <!-- Events will be generated by JavaScript -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Spotlight: High-Stakes Tables -->
+    <section id="high-stakes" class="py-20 bg-light-black">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-white" data-aos="fade-up">High-Stakes Tables</h2>
+            <p class="section-subtitle text-gray-300" data-aos="fade-up" data-aos-delay="100">Exclusive gaming experiences for serious players</p>
+            
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="spotlight-card" data-aos="fade-up">
+                    <div id="high-stakes-image-1" class="h-64 bg-cover bg-center rounded-t-lg"></div>
+                    <div class="p-6 bg-dark-card rounded-b-lg">
+                        <h3 class="text-xl font-playfair font-bold text-gold mb-2">Private Poker Rooms</h3>
+                        <p class="text-gray-300 mb-4">Intimate settings for high-limit poker games with personalized service and premium amenities.</p>
+                        <a href="#" class="btn-text">Reserve a Table <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+                <div class="spotlight-card" data-aos="fade-up" data-aos-delay="100">
+                    <div id="high-stakes-image-2" class="h-64 bg-cover bg-center rounded-t-lg"></div>
+                    <div class="p-6 bg-dark-card rounded-b-lg">
+                        <h3 class="text-xl font-playfair font-bold text-gold mb-2">VIP Baccarat Salons</h3>
+                        <p class="text-gray-300 mb-4">Experience the sophistication of high-limit baccarat in our luxurious private gaming salons.</p>
+                        <a href="#" class="btn-text">Learn More <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+                <div class="spotlight-card" data-aos="fade-up" data-aos-delay="200">
+                    <div id="high-stakes-image-3" class="h-64 bg-cover bg-center rounded-t-lg"></div>
+                    <div class="p-6 bg-dark-card rounded-b-lg">
+                        <h3 class="text-xl font-playfair font-bold text-gold mb-2">Elite Blackjack</h3>
+                        <p class="text-gray-300 mb-4">Premium blackjack tables with higher limits and enhanced odds for discerning players.</p>
+                        <a href="#" class="btn-text">View Games <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIP Signup Section -->
+    <section id="signup" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-lg shadow-xl overflow-hidden" data-aos="slide-up">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div id="signup-image" class="h-64 md:h-auto bg-cover bg-center"></div>
+                    <div class="p-8 md:p-12">
+                        <h2 class="text-3xl font-bold font-playfair text-gray-800 mb-2">Join Our VIP Club</h2>
+                        <p class="text-gray-600 mb-6">Unlock exclusive benefits, preferential treatment, and personalized experiences.</p>
+                        
+                        <form id="vip-form" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-gray-700 mb-1">Full Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="Enter your full name" required>
+                                <p class="error-message hidden" id="name-error">Please enter your full name</p>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 mb-1">Email Address</label>
+                                <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+                                <p class="error-message hidden" id="email-error">Please enter a valid email address</p>
+                            </div>
+                            <div>
+                                <label for="country" class="block text-gray-700 mb-1">Country</label>
+                                <select id="country" class="form-select" required>
+                                    <option value="">Select your country</option>
+                                    <option value="US">United States</option>
+                                    <option value="UK">United Kingdom</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="AU">Australia</option>
+                                    <option value="SG">Singapore</option>
+                                    <option value="AE">United Arab Emirates</option>
+                                    <option value="JP">Japan</option>
+                                    <option value="FR">France</option>
+                                    <option value="DE">Germany</option>
+                                    <option value="IT">Italy</option>
+                                    <option value="ES">Spain</option>
+                                </select>
+                                <p class="error-message hidden" id="country-error">Please select your country</p>
+                            </div>
+                            <div>
+                                <p class="block text-gray-700 mb-1">Favorite Casino Type</p>
+                                <div class="space-y-2">
+                                    <label class="flex items-center">
+                                        <input type="radio" name="casino-type" value="resort" class="mr-2" required>
+                                        <span>Resort Casino</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="casino-type" value="boutique" class="mr-2">
+                                        <span>Boutique Casino</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="casino-type" value="card-room" class="mr-2">
+                                        <span>Card Room</span>
+                                    </label>
+                                </div>
+                                <p class="error-message hidden" id="casino-type-error">Please select your favorite casino type</p>
+                            </div>
+                            <button type="submit" id="submit-btn" class="btn-primary w-full">
+                                <span>Join VIP Club</span>
+                                <span id="submit-spinner" class="hidden ml-2">
+                                    <i class="fas fa-spinner fa-spin"></i>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spotlight: Themed Rooms -->
+    <section id="themed-rooms" class="py-20 bg-light-black">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-white" data-aos="fade-up">Themed Luxury Suites</h2>
+            <p class="section-subtitle text-gray-300" data-aos="fade-up" data-aos-delay="100">Immerse yourself in extraordinary accommodations</p>
+            
+            <div class="swiper themed-rooms-swiper mt-12">
+                <div class="swiper-wrapper" id="themed-rooms-container">
+                    <!-- Themed rooms will be generated by JavaScript -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Guest Experiences</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">What our distinguished guests are saying</p>
+            
+            <div class="mt-12" data-aos="fade-in">
+                <div class="swiper testimonials-swiper">
+                    <div class="swiper-wrapper" id="testimonials-container">
+                        <!-- Testimonials will be generated by JavaScript -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Spotlight: Crypto Gaming -->
+    <section id="crypto-gaming" class="py-20 bg-light-black">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-white" data-aos="fade-up">Crypto Gaming</h2>
+            <p class="section-subtitle text-gray-300" data-aos="fade-up" data-aos-delay="100">Modern payment solutions for today's players</p>
+            
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="flex flex-col justify-center" data-aos="fade-right">
+                    <h3 class="text-2xl font-playfair font-bold text-gold mb-4">The Future of Casino Payments</h3>
+                    <p class="text-gray-300 mb-6">Experience the convenience and security of cryptocurrency transactions at our forward-thinking establishments. We accept a variety of digital currencies to enhance your gaming experience.</p>
+                    <div class="flex flex-wrap gap-4 mb-6">
+                        <div class="bg-dark-card p-3 rounded-lg flex items-center">
+                            <i class="fab fa-bitcoin text-gold text-xl mr-2"></i>
+                            <span class="text-white">Bitcoin</span>
+                        </div>
+                        <div class="bg-dark-card p-3 rounded-lg flex items-center">
+                            <i class="fab fa-ethereum text-gold text-xl mr-2"></i>
+                            <span class="text-white">Ethereum</span>
+                        </div>
+                        <div class="bg-dark-card p-3 rounded-lg flex items-center">
+                            <i class="fas fa-coins text-gold text-xl mr-2"></i>
+                            <span class="text-white">Litecoin</span>
+                        </div>
+                        <div class="bg-dark-card p-3 rounded-lg flex items-center">
+                            <i class="fas fa-coins text-gold text-xl mr-2"></i>
+                            <span class="text-white">USDT</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-secondary self-start">Learn About Crypto Gaming</a>
+                </div>
+                <div class="relative overflow-hidden rounded-lg" data-aos="fade-left">
+                    <div id="crypto-image" class="h-80 bg-cover bg-center"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title" data-aos="fade-up">Frequently Asked Questions</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Find answers to common inquiries about our casino resorts</p>
+            
+            <div class="mt-12 max-w-3xl mx-auto" data-aos="fade-up">
+                <div class="accordion" id="faq-accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="faq-1-header">
+                            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-1-content">
+                                <span>What are the minimum age requirements?</span>
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus hidden"></i>
+                            </button>
+                        </div>
+                        <div id="faq-1-content" class="accordion-content hidden">
+                            <div class="p-5">
+                                <p>The minimum age requirement for gambling at our casino resorts is 21 years old in most locations. Some international destinations may allow guests who are 18 years or older. Valid identification is required for entry to gaming floors and for certain amenities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="faq-2-header">
+                            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-2-content">
+                                <span>How do I become a VIP member?</span>
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus hidden"></i>
+                            </button>
+                        </div>
+                        <div id="faq-2-content" class="accordion-content hidden">
+                            <div class="p-5">
+                                <p>VIP membership is available by invitation or application. You can apply through our website by filling out the VIP signup form. Our team evaluates applications based on gaming history, frequency of visits, and spending patterns. VIP members enjoy exclusive benefits including personalized service, higher betting limits, and special event invitations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="faq-3-header">
+                            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-3-content">
+                                <span>What amenities are included in the resort fee?</span>
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus hidden"></i>
+                            </button>
+                        </div>
+                        <div id="faq-3-content" class="accordion-content hidden">
+                            <div class="p-5">
+                                <p>Our resort fee typically includes access to the fitness center, pool facilities, in-room Wi-Fi, local calls, and shuttle service to nearby attractions. Specific amenities may vary by location. VIP members often enjoy waived resort fees as part of their membership benefits.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="faq-4-header">
+                            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-4-content">
+                                <span>Are there non-smoking gaming areas?</span>
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus hidden"></i>
+                            </button>
+                        </div>
+                        <div id="faq-4-content" class="accordion-content hidden">
+                            <div class="p-5">
+                                <p>Yes, all of our casino resorts offer designated non-smoking gaming areas with a full selection of table games and slot machines. These areas feature enhanced air filtration systems for your comfort. Some of our newer properties are completely smoke-free throughout the casino floor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="faq-5-header">
+                            <button class="accordion-button" type="button" aria-expanded="false" aria-controls="faq-5-content">
+                                <span>How can I make restaurant reservations?</span>
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-minus hidden"></i>
+                            </button>
+                        </div>
+                        <div id="faq-5-content" class="accordion-content hidden">
+                            <div class="p-5">
+                                <p>Restaurant reservations can be made through our website, mobile app, or by contacting our concierge service. We recommend making reservations at least 2-3 weeks in advance for our signature restaurants, especially during peak times. VIP members have access to priority reservations and exclusive dining experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark-footer pt-16 pb-8 text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- About Column -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4 font-playfair">About Us</h3>
+                    <p class="text-gray-300 mb-4">We operate world-class luxury casino resorts, delivering unforgettable experiences with impeccable service and sophisticated amenities.</p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Links Column -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4 font-playfair">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#casinos" class="text-gray-300 hover:text-gold transition-colors">Top Casinos</a></li>
+                        <li><a href="#events" class="text-gray-300 hover:text-gold transition-colors">Upcoming Events</a></li>
+                        <li><a href="#signup" class="text-gray-300 hover:text-gold transition-colors">VIP Membership</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold transition-colors">Responsible Gaming</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold transition-colors">Careers</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-gold transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter Column -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4 font-playfair">Newsletter</h3>
+                    <p class="text-gray-300 mb-4">Subscribe to receive updates on exclusive events and special offers.</p>
+                    <form id="newsletter-form" class="space-y-2">
+                        <div>
+                            <input type="email" id="newsletter-email" class="form-input bg-dark-card text-white border-gray-700 focus:border-gold" placeholder="Your email address" required>
+                            <p class="error-message hidden" id="newsletter-error">Please enter a valid email address</p>
+                        </div>
+                        <button type="submit" class="btn-gold w-full">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400">&copy; <span id="current-year"></span> <span id="footer-brand-name"></span>. All rights reserved.</p>
+                <div class="mt-4 md:mt-0 space-x-4">
+                    <a href="#" class="text-gray-400 text-sm hover:text-white">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 text-sm hover:text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <!-- Back to top button -->
+        <button id="back-to-top" class="fixed bottom-8 right-8 bg-gold p-3 rounded-full shadow-lg z-50 opacity-0 invisible transition-all">
+            <i class="fas fa-arrow-up text-white"></i>
+        </button>
+    </footer>
+
+    <!-- Modal Templates -->
+    <div id="casino-modal" class="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center hidden">
+        <div class="bg-white rounded-lg shadow-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="relative">
+                <div id="casino-modal-image" class="h-64 bg-cover bg-center rounded-t-lg"></div>
+                <button id="close-casino-modal" class="absolute top-4 right-4 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-colors">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="flex items-center mb-4">
+                    <h3 id="casino-modal-name" class="text-2xl font-bold font-playfair text-gray-800"></h3>
+                    <div id="casino-modal-flag" class="ml-2"></div>
+                </div>
+                <div id="casino-modal-rating" class="flex text-gold mb-4"></div>
+                <p id="casino-modal-description" class="text-gray-600 mb-6"></p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                    <div>
+                        <h4 class="font-bold mb-2">Gaming Options</h4>
+                        <ul id="casino-modal-games" class="list-disc pl-5 text-gray-600"></ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold mb-2">Amenities</h4>
+                        <ul id="casino-modal-amenities" class="list-disc pl-5 text-gray-600"></ul>
+                    </div>
+                </div>
+                
+                <div class="border-t border-gray-200 pt-4 flex justify-between items-center">
+                    <div>
+                        <p class="font-bold">Address:</p>
+                        <p id="casino-modal-address" class="text-gray-600"></p>
+                    </div>
+                    <a href="#" class="btn-primary" id="casino-modal-website">Visit Website</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="event-modal" class="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center hidden">
+        <div class="bg-white rounded-lg shadow-2xl max-w-2xl w-full">
+            <div class="relative">
+                <div id="event-modal-image" class="h-64 bg-cover bg-center rounded-t-lg"></div>
+                <button id="close-event-modal" class="absolute top-4 right-4 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-colors">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="p-6">
+                <div class="flex items-center mb-2">
+                    <i class="far fa-calendar-alt text-gold mr-2"></i>
+                    <span id="event-modal-date" class="text-gray-600"></span>
+                </div>
+                <h3 id="event-modal-title" class="text-2xl font-bold font-playfair text-gray-800 mb-4"></h3>
+                <p id="event-modal-description" class="text-gray-600 mb-6"></p>
+                
+                <div class="border-t border-gray-200 pt-4">
+                    <h4 class="font-bold mb-2">Event Details</h4>
+                    <ul class="space-y-2 text-gray-600 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-gold mt-1 mr-2"></i>
+                            <span id="event-modal-location"></span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-clock text-gold mt-1 mr-2"></i>
+                            <span id="event-modal-time"></span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-ticket-alt text-gold mt-1 mr-2"></i>
+                            <span id="event-modal-price"></span>
+                        </li>
+                    </ul>
+                    
+                    <div class="flex justify-end">
+                        <button id="event-rsvp-btn" class="btn-primary">RSVP Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="success-modal" class="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center hidden">
+        <div class="bg-white rounded-lg shadow-2xl max-w-md w-full p-6 text-center">
+            <div class="text-green-500 text-5xl mb-4">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 class="text-2xl font-bold font-playfair text-gray-800 mb-2">Thank You!</h3>
+            <p class="text-gray-600 mb-6" id="success-message">Your submission has been received successfully.</p>
+            <button id="close-success-modal" class="btn-primary">Close</button>
+        </div>
+    </div>
+
+    <div id="toast" class="fixed bottom-4 right-4 bg-white rounded-lg shadow-lg p-4 flex items-center z-50 transform translate-y-16 opacity-0 transition-all duration-300">
+        <div class="text-green-500 mr-3">
+            <i class="fas fa-check-circle text-xl"></i>
+        </div>
+        <div>
+            <h4 class="font-bold text-gray-800" id="toast-title">Success</h4>
+            <p class="text-gray-600 text-sm" id="toast-message"></p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
 </html>
