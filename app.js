@@ -112,11 +112,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 loadTestimonials(data.testimonials);
             }
             
-            // Load crypto image
-            if (data.crypto && data.crypto.image) {
-                document.getElementById('crypto-image').style.backgroundImage = `url('${data.crypto.image}')`;
-            }
-            
             // Load events
             if (data.events && Array.isArray(data.events)) {
                 loadEvents(data.events);
