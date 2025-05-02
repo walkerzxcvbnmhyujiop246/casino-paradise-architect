@@ -1,6 +1,6 @@
 {
   "hero": {
-    "video": "https://assets.mixkit.co/videos/preview/mixkit-poker-table-with-cards-and-chips-at-a-casino-100392.mp4"
+    "video": "https://videos.pexels.com/video-files/855677/855677-hd_1920_1080_30fps.mp4"
   },
   "casinos": [
     {
@@ -101,52 +101,52 @@
     }
   ],
   "gallery": [
-    "https://upload.wikimedia.org/wikipedia/commons/7/7d/Las_Vegas_Strip_%281995%29.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/d/d0/Casino_interior_Coogee.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/3/3c/Slot_machine_room.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/9/9d/Poker_chips.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/5/54/Roulette_wheel.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/2/28/Craps_table.jpg"
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/31/8b/6a/casino.jpg?w=1200&h=-1&s=1",
+    "https://images.prismic.io/pittsburgh-rushstreetgaming/1812c12d-2bb3-43dc-932c-007a331fd72f_Hotel+hero.jpg?auto=format,compress",
+    "https://casino.hardrock.com/hollywood/-/media/project/shrss/sga/casinos/hard-rock/hollywood/hotel/hard-rock-hotel/deluxe-queen/hard-rock-hotel-deluxe-queen-2-beds-3150x2150.jpg?rev=6b0625893f404893a08550a313298a89&hash=D38C01750042B091C164255F80E6F3DA",
+    "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/61/c8/8d/hard-rock-hotel-casino.jpg?w=1200&h=-1&s=1",
+    "https://www.unfinishedman.com/wp-content/uploads/2023/11/What-Are-Casino-Hotels-7.jpg",
+    "https://miamilotushouse.com/wp-content/uploads/2022/11/Bellagio.jpg"
   ],
   "cuisine": {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Fine_dining_plate.jpg"
+    "image": "https://www.thepinnaclelist.com/wp-content/uploads/2022/04/Bellagio-Hotel-Casino-Las-Vegas-Nevada-USA.jpg"
   },
   "highStakes": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/e7/High_stakes_poker.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/6/6c/Poker_table_highstakes.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Big_bet_blackjack.jpg"
+    "https://www.vancouverplanner.com/wp-content/uploads/2022/08/parq-casino-e1660460848411.jpg",
+    "https://visitmississippi.org/wp-content/uploads/2022/09/Biloxi.jpg",
+    "https://s.hdnux.com/photos/01/26/70/24/22775095/4/ratio3x2_1920.jpg"
   ],
   "signup": {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Registration_form_icon.svg"
+    "image": "https://www.vancouverplanner.com/wp-content/uploads/2022/08/river-rock-hotel.jpg"
   },
   "themedRooms": [
     {
       "name": "Maharaja Suite",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Indian_Palace_Style_Interior.jpg",
+      "image": "https://lh5.googleusercontent.com/proxy/YstE2VGc7W43-qS_hKzokJ44cogC4HkZVRzagSPPxUzWs9JlC605mUbCGh_11KEsEckcm4kwuzW_8caRcsp4ZrVWFbd-li0UCn5zkR58C5FZUcpmMH27WYK2f7Ka0dlhgnxuxHEk6PwmNMamACb7Pg",
       "description": "Experience the opulence of Indian royalty in our Maharaja Suite with handcrafted furnishings and personalized butler service.",
       "price": "$5,000/night"
     },
     {
       "name": "Venetian Villa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Venice_Palazzo_-_Canal_Front.jpg",
+      "image": "https://thepointsguy.global.ssl.fastly.net/us/originals/2023/01/Best-Hotels-Vegas_Bellagio_FB.jpg",
       "description": "Indulge in the romance of Venice with panoramic views, authentic Italian décor, and a private terrace overlooking the water.",
       "price": "$4,500/night"
     },
     {
       "name": "Gatsby Penthouse",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Art_Deco_Penthouse_Interior.jpg",
+      "image": "https://content.r9cdn.net/rimg/dimg/0a/9e/073516d2-city-35107-1656d23229c.jpg?crop=true&width=1366&height=768&xhint=2420&yhint=1089",
       "description": "Step back into the roaring twenties with art deco design, a private bar, and spectacular city views from your exclusive rooftop.",
       "price": "$6,200/night"
     },
     {
       "name": "Oriental Paradise",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Asian_Traditional_Garden.jpg",
+      "image": "https://hotels-kusadasi.org/photo-data/photos/1920x1080w/12921/1292128/1292128096.JPEG",
       "description": "Immerse yourself in tranquility with traditional Asian design elements, a Japanese garden, and private hot springs bath.",
       "price": "$4,800/night"
     },
     {
       "name": "Royal Morocco",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Moroccan_Palace_Interior.jpg",
+      "image": "https://display.blogto.com/articles/20250428-hard-rock-hotel-london.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70&format=jpeg",
       "description": "Exotic luxury inspired by Moroccan palaces featuring intricate mosaics, a hammam spa, and desert-inspired color palette.",
       "price": "$5,500/night"
     }
@@ -155,28 +155,28 @@
     {
       "name": "James Reynolds",
       "location": "New York, USA",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Portrait_of_a_man.jpg",
+      "image": "https://img.freepik.com/free-photo/young-adult-man-wearing-hoodie-beanie_23-2149393636.jpg?semt=ais_hybrid&w=740",
       "rating": 5,
       "comment": "The VIP treatment at this resort exceeded all my expectations. From the moment I arrived, the staff catered to my every need. The high-stakes rooms are the best I've experienced anywhere in the world."
     },
     {
       "name": "Sophia Chen",
       "location": "Singapore",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Portrait_of_a_woman.jpg",
+      "image": "https://img.freepik.com/free-photo/close-up-portrait-curly-handsome-european-male_176532-8133.jpg?semt=ais_hybrid&w=740",
       "rating": 5,
       "comment": "I've visited luxury casinos worldwide, but the attention to detail here is unparalleled. The private gaming salons offer an intimate atmosphere with impeccable service."
     },
     {
       "name": "Alexander Petrov",
       "location": "Moscow, Russia",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Portrait_of_a_suit.jpg",
+      "image": "https://img.freepik.com/free-photo/front-view-smiley-woman-with-earbuds_23-2148613052.jpg",
       "rating": 4,
       "comment": "The themed suites are absolutely stunning. I stayed in the Maharaja Suite and felt like royalty. The personalized butler service and exclusive casino access made my stay memorable."
     },
     {
       "name": "Isabelle Laurent",
       "location": "Paris, France",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Portrait_of_a_lady.jpg",
+      "image": "https://img.freepik.com/free-photo/close-up-smiley-woman-outdoors_23-2149002410.jpg",
       "rating": 5,
       "comment": "The culinary experience alone is worth the visit. Every restaurant surpassed my expectations, and the sommelier's recommendations were perfect. Combined with world-class gaming, it's truly a luxury experience."
     }
@@ -188,7 +188,7 @@
     {
       "title": "World Poker Masters",
       "date": "2025-06-15T19:00:00",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Professional_poker_tournament.jpg",
+      "image": "https://static.independent.co.uk/2024/11/13/12/how-to-play-poker-copy.jpg",
       "description": "Join the elite international poker tournament with a guaranteed $5 million prize pool and live broadcasts.",
       "fullDescription": "The World Poker Masters is our flagship poker event featuring the world's top players competing for glory and a massive $5 million guaranteed prize pool. The tournament will be broadcast live on major sports networks and streaming platforms. VIP packages include exclusive access to player lounges, meet-and-greets with poker legends, and complimentary amenities throughout your stay.",
       "location": "Grand Ballroom",
@@ -198,7 +198,7 @@
     {
       "title": "Midnight Masquerade",
       "date": "2025-07-21T22:00:00",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Opera_Mask_Carnival.jpg",
+      "image": "https://hallmark.brightspotcdn.com/bf/01/00373bce42f40ec56c9b6c63dd97/midnightmasquerade-0135.jpg",
       "description": "An elegant evening of mystery and luxury featuring gourmet cuisine, live entertainment, and exclusive gaming.",
       "fullDescription": "The Midnight Masquerade is our most prestigious social event of the summer season. Guests will enjoy an evening of intrigue and sophistication while wearing elegant masks. The event includes a five-course gourmet dinner prepared by our Michelin-starred chef, live performances by internationally acclaimed artists, and exclusive access to our VIP gaming rooms with special high-limit tables opened just for this occasion.",
       "location": "Crystal Ballroom",
@@ -208,7 +208,7 @@
     {
       "title": "Jazz & Whiskey Experience",
       "date": "2025-08-05T20:00:00",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Whiskey_and_jazz.jpg",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6a/ed/64.jpg",
       "description": "An intimate evening featuring rare whiskey tastings and performances by legendary jazz musicians.",
       "fullDescription": "Our Jazz & Whiskey Experience combines the smooth sounds of world-class jazz with the refined tastes of rare and premium whiskeys from around the world. The evening includes guided tastings of limited-edition whiskeys valued at up to $5,000 per bottle, accompanied by performances from Grammy-winning jazz artists in our intimate lounge setting. A custom cigar rolling station and gourmet appetizer pairings complete this sophisticated experience.",
       "location": "Velvet Lounge",
@@ -218,7 +218,7 @@
     {
       "title": "Luxury Car Showcase Gala",
       "date": "2025-09-18T18:00:00",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Luxury_car_show.jpg",
+      "image": "https://kara5.com/storage/app/uploads/public/5eb/e69/e57/thumb_763_1400_0_0_0_auto.jpg",
       "description": "Exclusive preview of next year's ultra-luxury and hypercar models with charity auction and gourmet dining.",
       "fullDescription": "The Luxury Car Showcase Gala brings together the world's finest automotive masterpieces in an elegant setting. Be among the first to view and test drive next year's most anticipated ultra-luxury vehicles and limited-production hypercars. The evening includes a champagne reception, interactive displays with automotive designers, a charity auction benefiting children's education, and a four-course dinner crafted by celebrity chefs. One lucky attendee will win a weekend experience with the vehicle of their choice.",
       "location": "Grand Plaza & Gardens",
