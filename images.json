@@ -1,7 +1,8 @@
 {
   "hero": {
-    "video": "https://player.vimeo.com/external/370467553.hd.mp4?s=ce49c8c6d8e28a89298ffb4c53a2e842bdb11546&profile_id=174&oauth2_token_id=57447761"
-  },
+  "video": "https://assets.mixkit.co/videos/preview/mixkit-poker-table-with-cards-and-chips-at-a-casino-100392.mp4"
+},
+
   "casinos": [
     {
       "name": "Bellagio",
@@ -57,7 +58,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/MC_%E6%BE%B3%E9%96%80_Macau_%E8%B7%AF%E6%B0%B9_Taipa_%E9%87%91%E5%85%89%E5%A4%A7%E9%81%93_Cotai_hotel_shuttle_view_November_2019_SS2_07_The_Venetian_Macao_bridge.jpg",
       "rating": 5,
       "description": "The Venetian Macao is a luxury hotel and casino resort in Macau featuring replicas of Venetian landmarks and the largest casino floor in the world.",
-      "fullDescription": "The Venetian Macao is a luxury hotel and casino resort in Macau owned by the American Las Vegas Sands company. The Venetian is a 39-story, $2.4 billion anchor for the seven hotels on the Cotai Strip in Macau. It is a sister resort to The Venetian Las Vegas and is the largest casino in the world and the seventh-largest building in the world by floor area.",
+      "fullDescription": "The Venetian Macao is a luxury hotel and casino resort in Macau owned by the American Las Vegas Sands company. The Venetian is a 39-story, \$2.4 billion anchor for the seven hotels on the Cotai Strip in Macau. It is a sister resort to The Venetian Las Vegas and is the largest casino in the world and the seventh-largest building in the world by floor area.",
       "address": "Estrada da Baía de Nossa Senhora da Esperança, Macau",
       "website": "https://www.venetianmacao.com/",
       "games": ["Baccarat", "Fan-Tan", "Blackjack", "Roulette", "Sic Bo", "Slot Machines"],
@@ -90,7 +91,7 @@
     {
       "name": "The Hippodrome Casino",
       "country": "UK",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Hippodrome_Casino_London_Exterior.jpg/1280px-Hippodrome_Casino_London_Exterior.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Hippodrome_Casino_London_Exterior.jpg",
       "rating": 4,
       "description": "The Hippodrome Casino is the UK's largest international-style casino and entertainment venue, located in the heart of London's West End.",
       "fullDescription": "The Hippodrome Casino is a casino and entertainment venue in London's West End. The original building was built in 1900 for circus and variety performances, and was converted into a nightclub in the 1980s. In 2012, the venue reopened as a casino and cabaret theatre. It features three gaming floors, a poker deck, and a theatre that hosts nightly shows.",
@@ -101,23 +102,23 @@
     }
   ],
   "gallery": [
-    "https://images.unsplash.com/photo-1604605801370-3392b7f2cfae",
-    "https://images.unsplash.com/photo-1566694271453-390536dd1f0d",
-    "https://images.unsplash.com/photo-1596838132731-8dbd5c4638b9",
-    "https://images.unsplash.com/photo-1613450861176-384cbaec6ce8",
-    "https://images.unsplash.com/photo-1635125955277-b3dfc7d2bf5a",
-    "https://images.unsplash.com/photo-1610641818989-127898730a1c"
+    "https://upload.wikimedia.org/wikipedia/commons/7/7d/Las_Vegas_Strip_%281995%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/d/d0/Casino_interior_Coogee.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/3/3c/Slot_machine_room.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/9/9d/Poker_chips.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/54/Roulette_wheel.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/2/28/Craps_table.jpg"
   ],
   "cuisine": {
-    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Fine_dining_plate.jpg"
   },
   "highStakes": [
-    "https://images.unsplash.com/photo-1601370552761-d129028bd833",
-    "https://images.unsplash.com/photo-1605870445919-838d190e8e1b",
-    "https://images.unsplash.com/photo-1589048731758-000162c341b8"
+    "https://upload.wikimedia.org/wikipedia/commons/e/e7/High_stakes_poker.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/6/6c/Poker_table_highstakes.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Big_bet_blackjack.jpg"
   ],
   "signup": {
-    "image": "https://images.unsplash.com/photo-1543373014-cfe4f4ff61f2"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Registration_form_icon.svg"
   },
   "themedRooms": [
     {
@@ -155,34 +156,34 @@
     {
       "name": "James Reynolds",
       "location": "New York, USA",
-      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Portrait_of_a_man.jpg",
       "rating": 5,
       "comment": "The VIP treatment at this resort exceeded all my expectations. From the moment I arrived, the staff catered to my every need. The high-stakes rooms are the best I've experienced anywhere in the world."
     },
     {
       "name": "Sophia Chen",
       "location": "Singapore",
-      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Portrait_of_a_woman.jpg",
       "rating": 5,
       "comment": "I've visited luxury casinos worldwide, but the attention to detail here is unparalleled. The private gaming salons offer an intimate atmosphere with impeccable service."
     },
     {
       "name": "Alexander Petrov",
       "location": "Moscow, Russia",
-      "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671857",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Portrait_of_a_suit.jpg",
       "rating": 4,
       "comment": "The themed suites are absolutely stunning. I stayed in the Maharaja Suite and felt like royalty. The personalized butler service and exclusive casino access made my stay memorable."
     },
     {
       "name": "Isabelle Laurent",
       "location": "Paris, France",
-      "image": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Portrait_of_a_lady.jpg",
       "rating": 5,
       "comment": "The culinary experience alone is worth the visit. Every restaurant surpassed my expectations, and the sommelier's recommendations were perfect. Combined with world-class gaming, it's truly a luxury experience."
     }
   ],
   "crypto": {
-    "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg"
   },
   "events": [
     {
@@ -211,9 +212,9 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Whiskey_and_jazz.jpg",
       "description": "An intimate evening featuring rare whiskey tastings and performances by legendary jazz musicians.",
       "fullDescription": "Our Jazz & Whiskey Experience combines the smooth sounds of world-class jazz with the refined tastes of rare and premium whiskeys from around the world. The evening includes guided tastings of limited-edition whiskeys valued at up to $5,000 per bottle, accompanied by performances from Grammy-winning jazz artists in our intimate lounge setting. A custom cigar rolling station and gourmet appetizer pairings complete this sophisticated experience.",
-      "location": "Velvet Lounge",
-      "time": "8:00 PM - Midnight",
-      "price": "VIP Members: $800 | Regular: $1,200"
+                              "location": "Velvet Lounge",
+                              "time": "8:00 PM - Midnight",
+                              "price": "VIP Members: $800 | Regular: $1,200"
     },
     {
       "title": "Luxury Car Showcase Gala",
