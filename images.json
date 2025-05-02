@@ -12,22 +12,8 @@
       "fullDescription": "The Bellagio is a resort, luxury hotel and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by The Blackstone Group and operated by MGM Resorts International and was built on the site of the demolished Dunes hotel and casino. Inspired by the Lake Como town of Bellagio in Italy, the Bellagio is famed for its elegance and is the home of the iconic Fountains of Bellagio.",
       "address": "3600 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
       "website": "https://bellagio.com/",
-      "games": [
-        "Poker",
-        "Blackjack",
-        "Roulette",
-        "Craps",
-        "Baccarat",
-        "Slot Machines"
-      ],
-      "amenities": [
-        "Fine Dining",
-        "Shopping",
-        "Fountains Show",
-        "Art Gallery",
-        "Spa",
-        "Pool"
-      ]
+      "games": ["Poker", "Blackjack", "Roulette", "Craps", "Baccarat", "Slot Machines"],
+      "amenities": ["Fine Dining", "Shopping", "Fountains Show", "Art Gallery", "Spa", "Pool"]
     },
     {
       "name": "Wynn Las Vegas",
@@ -38,22 +24,8 @@
       "fullDescription": "Wynn Las Vegas is a luxury resort and casino located on the Las Vegas Strip in Paradise, Nevada, United States. The US$2.7-billion resort is named after casino developer Steve Wynn and is the flagship property of Wynn Resorts. The resort covers 215 acres and has been awarded AAA five diamond, Mobil five-star, Forbes five-star, and Michelin five-star ratings.",
       "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109, USA",
       "website": "https://www.wynnlasvegas.com/",
-      "games": [
-        "Blackjack",
-        "Craps",
-        "Roulette",
-        "Baccarat",
-        "Poker",
-        "Slot Machines"
-      ],
-      "amenities": [
-        "Golf Course",
-        "Luxury Shopping",
-        "Fine Dining",
-        "Nightclubs",
-        "Pools",
-        "Spa"
-      ]
+      "games": ["Blackjack", "Craps", "Roulette", "Baccarat", "Poker", "Slot Machines"],
+      "amenities": ["Golf Course", "Luxury Shopping", "Fine Dining", "Nightclubs", "Pools", "Spa"]
     },
     {
       "name": "Marina Bay Sands",
@@ -64,22 +36,8 @@
       "fullDescription": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore. At its opening in 2010, it was billed as the world's most expensive standalone casino property at S$8 billion. The resort includes a 2,561-room hotel, a 120,000-square-metre convention-exhibition centre, a 74,000-square-metre mall, a museum, and the iconic SkyPark with an infinity pool.",
       "address": "10 Bayfront Ave, Singapore 018956",
       "website": "https://www.marinabaysands.com/",
-      "games": [
-        "Baccarat",
-        "Blackjack",
-        "Roulette",
-        "Sic Bo",
-        "Poker",
-        "Slot Machines"
-      ],
-      "amenities": [
-        "SkyPark",
-        "Infinity Pool",
-        "Fine Dining",
-        "Luxury Shopping",
-        "ArtScience Museum",
-        "Theatre"
-      ]
+      "games": ["Baccarat", "Blackjack", "Roulette", "Sic Bo", "Poker", "Slot Machines"],
+      "amenities": ["SkyPark", "Infinity Pool", "Fine Dining", "Luxury Shopping", "ArtScience Museum", "Theatre"]
     },
     {
       "name": "Monte Carlo Casino",
@@ -90,21 +48,8 @@
       "fullDescription": "The Monte Carlo Casino is an iconic gambling and entertainment complex located in Monaco, officially named 'Casino de Monte-Carlo'. It includes a casino, the Grand Théâtre de Monte Carlo, and the office of Les Ballets de Monte Carlo. The casino was established in 1863, and its Belle Époque architecture has made it a symbol of Monaco and a popular tourist attraction.",
       "address": "Place du Casino, 98000 Monaco",
       "website": "https://www.montecarlosbm.com/",
-      "games": [
-        "Roulette",
-        "Blackjack",
-        "Baccarat",
-        "Trente et Quarante",
-        "Poker",
-        "Slot Machines"
-      ],
-      "amenities": [
-        "Opera House",
-        "Fine Dining",
-        "Bar",
-        "Gardens",
-        "Historical Tours"
-      ]
+      "games": ["Roulette", "Blackjack", "Baccarat", "Trente et Quarante", "Poker", "Slot Machines"],
+      "amenities": ["Opera House", "Fine Dining", "Bar", "Gardens", "Historical Tours"]
     },
     {
       "name": "Venetian Macao",
@@ -115,22 +60,8 @@
       "fullDescription": "The Venetian Macao is a luxury hotel and casino resort in Macau owned by the American Las Vegas Sands company. The Venetian is a 39-story, $2.4 billion anchor for the seven hotels on the Cotai Strip in Macau. It is a sister resort to The Venetian Las Vegas and is the largest casino in the world and the seventh-largest building in the world by floor area.",
       "address": "Estrada da Baía de Nossa Senhora da Esperança, Macau",
       "website": "https://www.venetianmacao.com/",
-      "games": [
-        "Baccarat",
-        "Fan-Tan",
-        "Blackjack",
-        "Roulette",
-        "Sic Bo",
-        "Slot Machines"
-      ],
-      "amenities": [
-        "Canals",
-        "Gondola Rides",
-        "Luxury Shopping",
-        "Fine Dining",
-        "Arena",
-        "Theater"
-      ]
+      "games": ["Baccarat", "Fan-Tan", "Blackjack", "Roulette", "Sic Bo", "Slot Machines"],
+      "amenities": ["Canals", "Gondola Rides", "Luxury Shopping", "Fine Dining", "Arena", "Theater"]
     },
     {
       "name": "Crown Melbourne",
@@ -141,22 +72,8 @@
       "fullDescription": "Crown Melbourne is a large integrated resort and one of the most visited tourist attractions in Australia. Located on the south bank of the Yarra River, it stretches along the riverside and offers a variety of entertainment options, including a casino, three hotels, restaurants, bars, shopping, and function facilities.",
       "address": "8 Whiteman St, Southbank VIC 3006, Australia",
       "website": "https://www.crownmelbourne.com.au/",
-      "games": [
-        "Blackjack",
-        "Poker",
-        "Roulette",
-        "Baccarat",
-        "Craps",
-        "Slot Machines"
-      ],
-      "amenities": [
-        "Hotels",
-        "Fine Dining",
-        "Shopping",
-        "Nightclubs",
-        "Cinema",
-        "Spa"
-      ]
+      "games": ["Blackjack", "Poker", "Roulette", "Baccarat", "Craps", "Slot Machines"],
+      "amenities": ["Hotels", "Fine Dining", "Shopping", "Nightclubs", "Cinema", "Spa"]
     },
     {
       "name": "Atlantis The Palm",
@@ -167,21 +84,8 @@
       "fullDescription": "Atlantis The Palm is a luxury hotel resort located at the apex of the Palm Jumeirah in the United Arab Emirates. It was the first resort to be built on the island and is themed after the myth of Atlantis but includes distinct Arabian elements. The resort opened on September 24, 2008, as a joint venture between Kerzner International Holdings Limited and Istithmar World.",
       "address": "Crescent Rd, The Palm Jumeirah, Dubai, United Arab Emirates",
       "website": "https://www.atlantis.com/dubai/",
-      "games": [
-        "Blackjack",
-        "Roulette",
-        "Poker",
-        "Baccarat",
-        "Slot Machines"
-      ],
-      "amenities": [
-        "Aquarium",
-        "Water Park",
-        "Marine Activities",
-        "Fine Dining",
-        "Luxury Shopping",
-        "Spa"
-      ]
+      "games": ["Blackjack", "Roulette", "Poker", "Baccarat", "Slot Machines"],
+      "amenities": ["Aquarium", "Water Park", "Marine Activities", "Fine Dining", "Luxury Shopping", "Spa"]
     },
     {
       "name": "The Hippodrome Casino",
@@ -192,21 +96,8 @@
       "fullDescription": "The Hippodrome Casino is a casino and entertainment venue in London's West End. The original building was built in 1900 for circus and variety performances, and was converted into a nightclub in the 1980s. In 2012, the venue reopened as a casino and cabaret theatre. It features three gaming floors, a poker deck, and a theatre that hosts nightly shows.",
       "address": "Cranbourn St, London WC2H 7JH, United Kingdom",
       "website": "https://www.hippodromecasino.com/",
-      "games": [
-        "Blackjack",
-        "Roulette",
-        "Baccarat",
-        "Three Card Poker",
-        "Craps",
-        "Slot Machines"
-      ],
-      "amenities": [
-        "Theater Shows",
-        "Restaurants",
-        "Bars",
-        "Poker Room",
-        "Private Gaming Rooms"
-      ]
+      "games": ["Blackjack", "Roulette", "Baccarat", "Three Card Poker", "Craps", "Slot Machines"],
+      "amenities": ["Theater Shows", "Restaurants", "Bars", "Poker Room", "Private Gaming Rooms"]
     }
   ],
   "gallery": [
