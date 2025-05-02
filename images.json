@@ -1,230 +1,229 @@
-
 {
-    "hero": {
-        "video": "https://player.vimeo.com/external/370467553.hd.mp4?s=ce49c8c6d8e28a89298ffb4c53a2e842bdb11546&profile_id=174&oauth2_token_id=57447761"
+  "hero": {
+    "video": "https://player.vimeo.com/external/370467553.hd.mp4?s=ce49c8c6d8e28a89298ffb4c53a2e842bdb11546&profile_id=174&oauth2_token_id=57447761"
+  },
+  "casinos": [
+    {
+      "name": "Bellagio",
+      "country": "USA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Night_mode_2_Bellagio.jpg",
+      "rating": 5,
+      "description": "The Bellagio is a luxury casino and hotel on the Las Vegas Strip known for its elegance and the famous Fountains of Bellagio.",
+      "fullDescription": "The Bellagio is a resort, luxury hotel and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by The Blackstone Group and operated by MGM Resorts International and was built on the site of the demolished Dunes hotel and casino. Inspired by the Lake Como town of Bellagio in Italy, the Bellagio is famed for its elegance and is the home of the iconic Fountains of Bellagio.",
+      "address": "3600 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+      "website": "https://bellagio.com/",
+      "games": ["Poker", "Blackjack", "Roulette", "Craps", "Baccarat", "Slot Machines"],
+      "amenities": ["Fine Dining", "Shopping", "Fountains Show", "Art Gallery", "Spa", "Pool"]
     },
-    "casinos": [
-        {
-            "name": "Bellagio",
-            "country": "USA",
-            "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742",
-            "rating": 5,
-            "description": "The Bellagio is a luxury casino and hotel on the Las Vegas Strip known for its elegance and the famous Fountains of Bellagio.",
-            "fullDescription": "The Bellagio is a resort, luxury hotel and casino on the Las Vegas Strip in Paradise, Nevada. It is owned by The Blackstone Group and operated by MGM Resorts International and was built on the site of the demolished Dunes hotel and casino. Inspired by the Lake Como town of Bellagio in Italy, the Bellagio is famed for its elegance and is the home of the iconic Fountains of Bellagio.",
-            "address": "3600 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
-            "website": "https://bellagio.mgmresorts.com/",
-            "games": ["Poker", "Blackjack", "Roulette", "Craps", "Baccarat", "Slot Machines"],
-            "amenities": ["Fine Dining", "Shopping", "Fountains Show", "Art Gallery", "Spa", "Pool"]
-        },
-        {
-            "name": "Wynn Las Vegas",
-            "country": "USA",
-            "image": "https://images.unsplash.com/photo-1591017683260-c0c134a2b601",
-            "rating": 5,
-            "description": "The Wynn is a luxury resort and casino located on the Las Vegas Strip, known for its upscale amenities and exceptional service.",
-            "fullDescription": "Wynn Las Vegas is a luxury resort and casino located on the Las Vegas Strip in Paradise, Nevada, United States. The US$2.7-billion resort is named after casino developer Steve Wynn and is the flagship property of Wynn Resorts. The resort covers 215 acres and has been awarded AAA five diamond, Mobil five-star, Forbes five-star, and Michelin five-star ratings.",
-            "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109, USA",
-            "website": "https://www.wynnlasvegas.com/",
-            "games": ["Blackjack", "Craps", "Roulette", "Baccarat", "Poker", "Slot Machines"],
-            "amenities": ["Golf Course", "Luxury Shopping", "Fine Dining", "Nightclubs", "Pools", "Spa"]
-        },
-        {
-            "name": "Marina Bay Sands",
-            "country": "Singapore",
-            "image": "https://images.unsplash.com/photo-1565967511849-76a60a516170",
-            "rating": 5,
-            "description": "Marina Bay Sands is an integrated resort with a hotel, casino, retail mall, and the famous SkyPark observation deck.",
-            "fullDescription": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore. At its opening in 2010, it was billed as the world's most expensive standalone casino property at S$8 billion. The resort includes a 2,561-room hotel, a 120,000-square-metre convention-exhibition centre, a 74,000-square-metre mall, a museum, and the iconic SkyPark with an infinity pool.",
-            "address": "10 Bayfront Ave, Singapore 018956",
-            "website": "https://www.marinabaysands.com/",
-            "games": ["Baccarat", "Blackjack", "Roulette", "Sic Bo", "Poker", "Slot Machines"],
-            "amenities": ["SkyPark", "Infinity Pool", "Fine Dining", "Luxury Shopping", "ArtScience Museum", "Theatre"]
-        },
-        {
-            "name": "Monte Carlo Casino",
-            "country": "Monaco",
-            "image": "https://images.unsplash.com/photo-1562160824-a04a060cd2f2",
-            "rating": 4,
-            "description": "The Monte Carlo Casino is a historic gambling and entertainment complex in Monaco known for its Belle Époque architecture.",
-            "fullDescription": "The Monte Carlo Casino is an iconic gambling and entertainment complex located in Monaco, officially named 'Casino de Monte-Carlo'. It includes a casino, the Grand Théâtre de Monte Carlo, and the office of Les Ballets de Monte Carlo. The casino was established in 1863, and its Belle Époque architecture has made it a symbol of Monaco and a popular tourist attraction.",
-            "address": "Place du Casino, 98000 Monaco",
-            "website": "https://www.montecarlosbm.com/",
-            "games": ["Roulette", "Blackjack", "Baccarat", "Trente et Quarante", "Poker", "Slot Machines"],
-            "amenities": ["Opera House", "Fine Dining", "Bar", "Gardens", "Historical Tours"]
-        },
-        {
-            "name": "Venetian Macao",
-            "country": "Macau",
-            "image": "https://images.unsplash.com/photo-1518174607656-5534698b1625",
-            "rating": 5,
-            "description": "The Venetian Macao is a luxury hotel and casino resort in Macau featuring replicas of Venetian landmarks and the largest casino floor in the world.",
-            "fullDescription": "The Venetian Macao is a luxury hotel and casino resort in Macau owned by the American Las Vegas Sands company. The Venetian is a 39-story, $2.4 billion anchor for the seven hotels on the Cotai Strip in Macau. It is a sister resort to The Venetian Las Vegas and is the largest casino in the world and the seventh-largest building in the world by floor area.",
-            "address": "Estrada da Baía de Nossa Senhora da Esperança, Macau",
-            "website": "https://www.venetianmacao.com/",
-            "games": ["Baccarat", "Fan-Tan", "Blackjack", "Roulette", "Sic Bo", "Slot Machines"],
-            "amenities": ["Canals", "Gondola Rides", "Luxury Shopping", "Fine Dining", "Arena", "Theater"]
-        },
-        {
-            "name": "Crown Melbourne",
-            "country": "Australia",
-            "image": "https://images.unsplash.com/photo-1445991842772-097fea258e7b",
-            "rating": 4,
-            "description": "Crown Melbourne is a large integrated resort and casino complex on the south bank of the Yarra River in Melbourne, Australia.",
-            "fullDescription": "Crown Melbourne is a large integrated resort and one of the most visited tourist attractions in Australia. Located on the south bank of the Yarra River, it stretches along the riverside and offers a variety of entertainment options, including a casino, three hotels, restaurants, bars, shopping, and function facilities.",
-            "address": "8 Whiteman St, Southbank VIC 3006, Australia",
-            "website": "https://www.crownmelbourne.com.au/",
-            "games": ["Blackjack", "Poker", "Roulette", "Baccarat", "Craps", "Slot Machines"],
-            "amenities": ["Hotels", "Fine Dining", "Shopping", "Nightclubs", "Cinema", "Spa"]
-        },
-        {
-            "name": "Atlantis The Palm",
-            "country": "UAE",
-            "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461",
-            "rating": 5,
-            "description": "Atlantis The Palm is a luxury hotel resort located on The Palm Jumeirah in Dubai, featuring an underwater aquarium and an expansive water park.",
-            "fullDescription": "Atlantis The Palm is a luxury hotel resort located at the apex of the Palm Jumeirah in the United Arab Emirates. It was the first resort to be built on the island and is themed after the myth of Atlantis but includes distinct Arabian elements. The resort opened on September 24, 2008, as a joint venture between Kerzner International Holdings Limited and Istithmar World.",
-            "address": "Crescent Rd, The Palm Jumeirah, Dubai, United Arab Emirates",
-            "website": "https://www.atlantis.com/dubai/",
-            "games": ["Blackjack", "Roulette", "Poker", "Baccarat", "Slot Machines"],
-            "amenities": ["Aquarium", "Water Park", "Marine Activities", "Fine Dining", "Luxury Shopping", "Spa"]
-        },
-        {
-            "name": "The Hippodrome Casino",
-            "country": "UK",
-            "image": "https://images.unsplash.com/photo-1638698461396-b8afdb6e0536",
-            "rating": 4,
-            "description": "The Hippodrome Casino is the UK's largest international-style casino and entertainment venue, located in the heart of London's West End.",
-            "fullDescription": "The Hippodrome Casino is a casino and entertainment venue in London's West End. The original building was built in 1900 for circus and variety performances, and was converted into a nightclub in the 1980s. In 2012, the venue reopened as a casino and cabaret theatre. It features three gaming floors, a poker deck, and a theatre that hosts nightly shows.",
-            "address": "Cranbourn St, London WC2H 7JH, United Kingdom",
-            "website": "https://www.hippodromecasino.com/",
-            "games": ["Blackjack", "Roulette", "Baccarat", "Three Card Poker", "Craps", "Slot Machines"],
-            "amenities": ["Theater Shows", "Restaurants", "Bars", "Poker Room", "Private Gaming Rooms"]
-        }
-    ],
-    "gallery": [
-        "https://images.unsplash.com/photo-1604605801370-3392b7f2cfae",
-        "https://images.unsplash.com/photo-1566694271453-390536dd1f0d",
-        "https://images.unsplash.com/photo-1596838132731-8dbd5c4638b9",
-        "https://images.unsplash.com/photo-1613450861176-384cbaec6ce8",
-        "https://images.unsplash.com/photo-1635125955277-b3dfc7d2bf5a",
-        "https://images.unsplash.com/photo-1610641818989-127898730a1c"
-    ],
-    "cuisine": {
-        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0"
+    {
+      "name": "Wynn Las Vegas",
+      "country": "USA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Wynn_2_%282%29.jpg",
+      "rating": 5,
+      "description": "The Wynn is a luxury resort and casino located on the Las Vegas Strip, known for its upscale amenities and exceptional service.",
+      "fullDescription": "Wynn Las Vegas is a luxury resort and casino located on the Las Vegas Strip in Paradise, Nevada, United States. The US$2.7-billion resort is named after casino developer Steve Wynn and is the flagship property of Wynn Resorts. The resort covers 215 acres and has been awarded AAA five diamond, Mobil five-star, Forbes five-star, and Michelin five-star ratings.",
+      "address": "3131 Las Vegas Blvd S, Las Vegas, NV 89109, USA",
+      "website": "https://www.wynnlasvegas.com/",
+      "games": ["Blackjack", "Craps", "Roulette", "Baccarat", "Poker", "Slot Machines"],
+      "amenities": ["Golf Course", "Luxury Shopping", "Fine Dining", "Nightclubs", "Pools", "Spa"]
     },
-    "highStakes": [
-        "https://images.unsplash.com/photo-1601370552761-d129028bd833",
-        "https://images.unsplash.com/photo-1605870445919-838d190e8e1b",
-        "https://images.unsplash.com/photo-1589048731758-000162c341b8"
-    ],
-    "signup": {
-        "image": "https://images.unsplash.com/photo-1543373014-cfe4f4ff61f2"
+    {
+      "name": "Marina Bay Sands",
+      "country": "Singapore",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
+      "rating": 5,
+      "description": "Marina Bay Sands is an integrated resort with a hotel, casino, retail mall, and the famous SkyPark observation deck.",
+      "fullDescription": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore. At its opening in 2010, it was billed as the world's most expensive standalone casino property at S$8 billion. The resort includes a 2,561-room hotel, a 120,000-square-metre convention-exhibition centre, a 74,000-square-metre mall, a museum, and the iconic SkyPark with an infinity pool.",
+      "address": "10 Bayfront Ave, Singapore 018956",
+      "website": "https://www.marinabaysands.com/",
+      "games": ["Baccarat", "Blackjack", "Roulette", "Sic Bo", "Poker", "Slot Machines"],
+      "amenities": ["SkyPark", "Infinity Pool", "Fine Dining", "Luxury Shopping", "ArtScience Museum", "Theatre"]
     },
-    "themedRooms": [
-        {
-            "name": "Maharaja Suite",
-            "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd",
-            "description": "Experience the opulence of Indian royalty in our Maharaja Suite with handcrafted furnishings and personalized butler service.",
-            "price": "$5,000/night"
-        },
-        {
-            "name": "Venetian Villa",
-            "image": "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4",
-            "description": "Indulge in the romance of Venice with panoramic views, authentic Italian décor, and a private terrace overlooking the water.",
-            "price": "$4,500/night"
-        },
-        {
-            "name": "Gatsby Penthouse",
-            "image": "https://images.unsplash.com/photo-1591088398332-8a7791972843",
-            "description": "Step back into the roaring twenties with art deco design, a private bar, and spectacular city views from your exclusive rooftop.",
-            "price": "$6,200/night"
-        },
-        {
-            "name": "Oriental Paradise",
-            "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb",
-            "description": "Immerse yourself in tranquility with traditional Asian design elements, a Japanese garden, and private hot springs bath.",
-            "price": "$4,800/night"
-        },
-        {
-            "name": "Royal Morocco",
-            "image": "https://images.unsplash.com/photo-1602002418082-a4443e081dd1",
-            "description": "Exotic luxury inspired by Moroccan palaces featuring intricate mosaics, a hammam spa, and desert-inspired color palette.",
-            "price": "$5,500/night"
-        }
-    ],
-    "testimonials": [
-        {
-            "name": "James Reynolds",
-            "location": "New York, USA",
-            "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-            "rating": 5,
-            "comment": "The VIP treatment at this resort exceeded all my expectations. From the moment I arrived, the staff catered to my every need. The high-stakes rooms are the best I've experienced anywhere in the world."
-        },
-        {
-            "name": "Sophia Chen",
-            "location": "Singapore",
-            "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-            "rating": 5,
-            "comment": "I've visited luxury casinos worldwide, but the attention to detail here is unparalleled. The private gaming salons offer an intimate atmosphere with impeccable service."
-        },
-        {
-            "name": "Alexander Petrov",
-            "location": "Moscow, Russia",
-            "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671857",
-            "rating": 4,
-            "comment": "The themed suites are absolutely stunning. I stayed in the Maharaja Suite and felt like royalty. The personalized butler service and exclusive casino access made my stay memorable."
-        },
-        {
-            "name": "Isabelle Laurent",
-            "location": "Paris, France",
-            "image": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c",
-            "rating": 5,
-            "comment": "The culinary experience alone is worth the visit. Every restaurant surpassed my expectations, and the sommelier's recommendations were perfect. Combined with world-class gaming, it's truly a luxury experience."
-        }
-    ],
-    "crypto": {
-        "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d"
+    {
+      "name": "Monte Carlo Casino",
+      "country": "Monaco",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Monaco_-_panoramio_%28138%29.jpg",
+      "rating": 4,
+      "description": "The Monte Carlo Casino is a historic gambling and entertainment complex in Monaco known for its Belle Époque architecture.",
+      "fullDescription": "The Monte Carlo Casino is an iconic gambling and entertainment complex located in Monaco, officially named 'Casino de Monte-Carlo'. It includes a casino, the Grand Théâtre de Monte Carlo, and the office of Les Ballets de Monte Carlo. The casino was established in 1863, and its Belle Époque architecture has made it a symbol of Monaco and a popular tourist attraction.",
+      "address": "Place du Casino, 98000 Monaco",
+      "website": "https://www.montecarlosbm.com/",
+      "games": ["Roulette", "Blackjack", "Baccarat", "Trente et Quarante", "Poker", "Slot Machines"],
+      "amenities": ["Opera House", "Fine Dining", "Bar", "Gardens", "Historical Tours"]
     },
-    "events": [
-        {
-            "title": "World Poker Masters",
-            "date": "2025-06-15T19:00:00",
-            "image": "https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827",
-            "description": "Join the elite international poker tournament with a guaranteed $5 million prize pool and live broadcasts.",
-            "fullDescription": "The World Poker Masters is our flagship poker event featuring the world's top players competing for glory and a massive $5 million guaranteed prize pool. The tournament will be broadcast live on major sports networks and streaming platforms. VIP packages include exclusive access to player lounges, meet-and-greets with poker legends, and complimentary amenities throughout your stay.",
-            "location": "Grand Ballroom",
-            "time": "7:00 PM - Midnight",
-            "price": "Entry: $25,000 | Spectators: $500"
-        },
-        {
-            "title": "Midnight Masquerade",
-            "date": "2025-07-21T22:00:00",
-            "image": "https://images.unsplash.com/photo-1511715282680-fbf93a50e721",
-            "description": "An elegant evening of mystery and luxury featuring gourmet cuisine, live entertainment, and exclusive gaming.",
-            "fullDescription": "The Midnight Masquerade is our most prestigious social event of the summer season. Guests will enjoy an evening of intrigue and sophistication while wearing elegant masks. The event includes a five-course gourmet dinner prepared by our Michelin-starred chef, live performances by internationally acclaimed artists, and exclusive access to our VIP gaming rooms with special high-limit tables opened just for this occasion.",
-            "location": "Crystal Ballroom",
-            "time": "10:00 PM - 3:00 AM",
-            "price": "VIP Members: $1,200 | Regular: $2,000"
-        },
-        {
-            "title": "Jazz & Whiskey Experience",
-            "date": "2025-08-05T20:00:00",
-            "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745",
-            "description": "An intimate evening featuring rare whiskey tastings and performances by legendary jazz musicians.",
-            "fullDescription": "Our Jazz & Whiskey Experience combines the smooth sounds of world-class jazz with the refined tastes of rare and premium whiskeys from around the world. The evening includes guided tastings of limited-edition whiskeys valued at up to $5,000 per bottle, accompanied by performances from Grammy-winning jazz artists in our intimate lounge setting. A custom cigar rolling station and gourmet appetizer pairings complete this sophisticated experience.",
-            "location": "Velvet Lounge",
-            "time": "8:00 PM - Midnight",
-            "price": "VIP Members: $800 | Regular: $1,200"
-        },
-        {
-            "title": "Luxury Car Showcase Gala",
-            "date": "2025-09-18T18:00:00",
-            "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
-            "description": "Exclusive preview of next year's ultra-luxury and hypercar models with charity auction and gourmet dining.",
-            "fullDescription": "The Luxury Car Showcase Gala brings together the world's finest automotive masterpieces in an elegant setting. Be among the first to view and test drive next year's most anticipated ultra-luxury vehicles and limited-production hypercars. The evening includes a champagne reception, interactive displays with automotive designers, a charity auction benefiting children's education, and a four-course dinner crafted by celebrity chefs. One lucky attendee will win a weekend experience with the vehicle of their choice.",
-            "location": "Grand Plaza & Gardens",
-            "time": "6:00 PM - 11:00 PM",
-            "price": "VIP Members: $5,000 | Regular: $7,500"
-        }
-    ]
+    {
+      "name": "Venetian Macao",
+      "country": "Macau",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/MC_%E6%BE%B3%E9%96%80_Macau_%E8%B7%AF%E6%B0%B9_Taipa_%E9%87%91%E5%85%89%E5%A4%A7%E9%81%93_Cotai_hotel_shuttle_view_November_2019_SS2_07_The_Venetian_Macao_bridge.jpg",
+      "rating": 5,
+      "description": "The Venetian Macao is a luxury hotel and casino resort in Macau featuring replicas of Venetian landmarks and the largest casino floor in the world.",
+      "fullDescription": "The Venetian Macao is a luxury hotel and casino resort in Macau owned by the American Las Vegas Sands company. The Venetian is a 39-story, $2.4 billion anchor for the seven hotels on the Cotai Strip in Macau. It is a sister resort to The Venetian Las Vegas and is the largest casino in the world and the seventh-largest building in the world by floor area.",
+      "address": "Estrada da Baía de Nossa Senhora da Esperança, Macau",
+      "website": "https://www.venetianmacao.com/",
+      "games": ["Baccarat", "Fan-Tan", "Blackjack", "Roulette", "Sic Bo", "Slot Machines"],
+      "amenities": ["Canals", "Gondola Rides", "Luxury Shopping", "Fine Dining", "Arena", "Theater"]
+    },
+    {
+      "name": "Crown Melbourne",
+      "country": "Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Overview_of_Crown_Casino_Complex.jpg",
+      "rating": 4,
+      "description": "Crown Melbourne is a large integrated resort and casino complex on the south bank of the Yarra River in Melbourne, Australia.",
+      "fullDescription": "Crown Melbourne is a large integrated resort and one of the most visited tourist attractions in Australia. Located on the south bank of the Yarra River, it stretches along the riverside and offers a variety of entertainment options, including a casino, three hotels, restaurants, bars, shopping, and function facilities.",
+      "address": "8 Whiteman St, Southbank VIC 3006, Australia",
+      "website": "https://www.crownmelbourne.com.au/",
+      "games": ["Blackjack", "Poker", "Roulette", "Baccarat", "Craps", "Slot Machines"],
+      "amenities": ["Hotels", "Fine Dining", "Shopping", "Nightclubs", "Cinema", "Spa"]
+    },
+    {
+      "name": "Atlantis The Palm",
+      "country": "UAE",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f3/Hotel_Atlantis_at_Sunset%2C_The_Palm_-_Dubai_%2849510861268%29.jpg",
+      "rating": 5,
+      "description": "Atlantis The Palm is a luxury hotel resort located on The Palm Jumeirah in Dubai, featuring an underwater aquarium and an expansive water park.",
+      "fullDescription": "Atlantis The Palm is a luxury hotel resort located at the apex of the Palm Jumeirah in the United Arab Emirates. It was the first resort to be built on the island and is themed after the myth of Atlantis but includes distinct Arabian elements. The resort opened on September 24, 2008, as a joint venture between Kerzner International Holdings Limited and Istithmar World.",
+      "address": "Crescent Rd, The Palm Jumeirah, Dubai, United Arab Emirates",
+      "website": "https://www.atlantis.com/dubai/",
+      "games": ["Blackjack", "Roulette", "Poker", "Baccarat", "Slot Machines"],
+      "amenities": ["Aquarium", "Water Park", "Marine Activities", "Fine Dining", "Luxury Shopping", "Spa"]
+    },
+    {
+      "name": "The Hippodrome Casino",
+      "country": "UK",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Hippodrome_Casino_London_Exterior.jpg/1280px-Hippodrome_Casino_London_Exterior.jpg",
+      "rating": 4,
+      "description": "The Hippodrome Casino is the UK's largest international-style casino and entertainment venue, located in the heart of London's West End.",
+      "fullDescription": "The Hippodrome Casino is a casino and entertainment venue in London's West End. The original building was built in 1900 for circus and variety performances, and was converted into a nightclub in the 1980s. In 2012, the venue reopened as a casino and cabaret theatre. It features three gaming floors, a poker deck, and a theatre that hosts nightly shows.",
+      "address": "Cranbourn St, London WC2H 7JH, United Kingdom",
+      "website": "https://www.hippodromecasino.com/",
+      "games": ["Blackjack", "Roulette", "Baccarat", "Three Card Poker", "Craps", "Slot Machines"],
+      "amenities": ["Theater Shows", "Restaurants", "Bars", "Poker Room", "Private Gaming Rooms"]
+    }
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1604605801370-3392b7f2cfae",
+    "https://images.unsplash.com/photo-1566694271453-390536dd1f0d",
+    "https://images.unsplash.com/photo-1596838132731-8dbd5c4638b9",
+    "https://images.unsplash.com/photo-1613450861176-384cbaec6ce8",
+    "https://images.unsplash.com/photo-1635125955277-b3dfc7d2bf5a",
+    "https://images.unsplash.com/photo-1610641818989-127898730a1c"
+  ],
+  "cuisine": {
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0"
+  },
+  "highStakes": [
+    "https://images.unsplash.com/photo-1601370552761-d129028bd833",
+    "https://images.unsplash.com/photo-1605870445919-838d190e8e1b",
+    "https://images.unsplash.com/photo-1589048731758-000162c341b8"
+  ],
+  "signup": {
+    "image": "https://images.unsplash.com/photo-1543373014-cfe4f4ff61f2"
+  },
+  "themedRooms": [
+    {
+      "name": "Maharaja Suite",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Indian_Palace_Style_Interior.jpg",
+      "description": "Experience the opulence of Indian royalty in our Maharaja Suite with handcrafted furnishings and personalized butler service.",
+      "price": "$5,000/night"
+    },
+    {
+      "name": "Venetian Villa",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Venice_Palazzo_-_Canal_Front.jpg",
+      "description": "Indulge in the romance of Venice with panoramic views, authentic Italian décor, and a private terrace overlooking the water.",
+      "price": "$4,500/night"
+    },
+    {
+      "name": "Gatsby Penthouse",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Art_Deco_Penthouse_Interior.jpg",
+      "description": "Step back into the roaring twenties with art deco design, a private bar, and spectacular city views from your exclusive rooftop.",
+      "price": "$6,200/night"
+    },
+    {
+      "name": "Oriental Paradise",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Asian_Traditional_Garden.jpg",
+      "description": "Immerse yourself in tranquility with traditional Asian design elements, a Japanese garden, and private hot springs bath.",
+      "price": "$4,800/night"
+    },
+    {
+      "name": "Royal Morocco",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Moroccan_Palace_Interior.jpg",
+      "description": "Exotic luxury inspired by Moroccan palaces featuring intricate mosaics, a hammam spa, and desert-inspired color palette.",
+      "price": "$5,500/night"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "James Reynolds",
+      "location": "New York, USA",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+      "rating": 5,
+      "comment": "The VIP treatment at this resort exceeded all my expectations. From the moment I arrived, the staff catered to my every need. The high-stakes rooms are the best I've experienced anywhere in the world."
+    },
+    {
+      "name": "Sophia Chen",
+      "location": "Singapore",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+      "rating": 5,
+      "comment": "I've visited luxury casinos worldwide, but the attention to detail here is unparalleled. The private gaming salons offer an intimate atmosphere with impeccable service."
+    },
+    {
+      "name": "Alexander Petrov",
+      "location": "Moscow, Russia",
+      "image": "https://images.unsplash.com/photo-1566492031773-4f4e44671857",
+      "rating": 4,
+      "comment": "The themed suites are absolutely stunning. I stayed in the Maharaja Suite and felt like royalty. The personalized butler service and exclusive casino access made my stay memorable."
+    },
+    {
+      "name": "Isabelle Laurent",
+      "location": "Paris, France",
+      "image": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c",
+      "rating": 5,
+      "comment": "The culinary experience alone is worth the visit. Every restaurant surpassed my expectations, and the sommelier's recommendations were perfect. Combined with world-class gaming, it's truly a luxury experience."
+    }
+  ],
+  "crypto": {
+    "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d"
+  },
+  "events": [
+    {
+      "title": "World Poker Masters",
+      "date": "2025-06-15T19:00:00",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Professional_poker_tournament.jpg",
+      "description": "Join the elite international poker tournament with a guaranteed $5 million prize pool and live broadcasts.",
+      "fullDescription": "The World Poker Masters is our flagship poker event featuring the world's top players competing for glory and a massive $5 million guaranteed prize pool. The tournament will be broadcast live on major sports networks and streaming platforms. VIP packages include exclusive access to player lounges, meet-and-greets with poker legends, and complimentary amenities throughout your stay.",
+      "location": "Grand Ballroom",
+      "time": "7:00 PM - Midnight",
+      "price": "Entry: $25,000 | Spectators: $500"
+    },
+    {
+      "title": "Midnight Masquerade",
+      "date": "2025-07-21T22:00:00",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Opera_Mask_Carnival.jpg",
+      "description": "An elegant evening of mystery and luxury featuring gourmet cuisine, live entertainment, and exclusive gaming.",
+      "fullDescription": "The Midnight Masquerade is our most prestigious social event of the summer season. Guests will enjoy an evening of intrigue and sophistication while wearing elegant masks. The event includes a five-course gourmet dinner prepared by our Michelin-starred chef, live performances by internationally acclaimed artists, and exclusive access to our VIP gaming rooms with special high-limit tables opened just for this occasion.",
+      "location": "Crystal Ballroom",
+      "time": "10:00 PM - 3:00 AM",
+      "price": "VIP Members: $1,200 | Regular: $2,000"
+    },
+    {
+      "title": "Jazz & Whiskey Experience",
+      "date": "2025-08-05T20:00:00",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Whiskey_and_jazz.jpg",
+      "description": "An intimate evening featuring rare whiskey tastings and performances by legendary jazz musicians.",
+      "fullDescription": "Our Jazz & Whiskey Experience combines the smooth sounds of world-class jazz with the refined tastes of rare and premium whiskeys from around the world. The evening includes guided tastings of limited-edition whiskeys valued at up to $5,000 per bottle, accompanied by performances from Grammy-winning jazz artists in our intimate lounge setting. A custom cigar rolling station and gourmet appetizer pairings complete this sophisticated experience.",
+      "location": "Velvet Lounge",
+      "time": "8:00 PM - Midnight",
+      "price": "VIP Members: $800 | Regular: $1,200"
+    },
+    {
+      "title": "Luxury Car Showcase Gala",
+      "date": "2025-09-18T18:00:00",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Luxury_car_show.jpg",
+      "description": "Exclusive preview of next year's ultra-luxury and hypercar models with charity auction and gourmet dining.",
+      "fullDescription": "The Luxury Car Showcase Gala brings together the world's finest automotive masterpieces in an elegant setting. Be among the first to view and test drive next year's most anticipated ultra-luxury vehicles and limited-production hypercars. The evening includes a champagne reception, interactive displays with automotive designers, a charity auction benefiting children's education, and a four-course dinner crafted by celebrity chefs. One lucky attendee will win a weekend experience with the vehicle of their choice.",
+      "location": "Grand Plaza & Gardens",
+      "time": "6:00 PM - 11:00 PM",
+      "price": "VIP Members: $5,000 | Regular: $7,500"
+    }
+  ]
 }
